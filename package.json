@@ -1,0 +1,21 @@
+{
+  "name": "cine-api",
+  "version": "1.0.0",
+  "description": "API REST para administración de películas favoritas de trabajadores y colaboradores en Iplacex",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js",
+    "start:local": "node --watch --env-file=.env.local server.js",
+    "test:integration": "node integration.test.js"
+  },
+  "author": "Iplacex - Francisco Bustamante Ordoñez",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0"
+  }
+}
